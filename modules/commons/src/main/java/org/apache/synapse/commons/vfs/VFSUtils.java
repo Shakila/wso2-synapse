@@ -492,7 +492,7 @@ public class VFSUtils {
             log.error("Couldn't release the fail for the file : " + maskURLPassword(fo.getName().getURI()));
         }
     }
-    
+
     private static void releaseLock(byte[] bLockValue, String sLockValue, FileObject lockObject,
                                        Boolean autoLockReleaseSameNode, Long autoLockReleaseInterval) {
         try {
